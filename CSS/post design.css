@@ -1,0 +1,16 @@
+.post {
+    padding-right: 500px;
+    background-color: steelblue;
+    border: cyan;
+}
+
+h2 {
+    text-decoration-color: green;
+    background-color: chartreuse;
+    border: black;
+}
+
+.post p {
+    text-decoration-color: blueviolet;
+    background-color: aquamarine;
+}
