@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/xampp/htdocs/KZ-blog/index.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/controller/create-post.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/view/register-form.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/view/login-form.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/controller/logout-user.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/controller/login-user.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/controller/logout-verify.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/controller/login-verify.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/model/database.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/view/navigation.php</file>
+        </group>
     </open-files>
 </project-private>

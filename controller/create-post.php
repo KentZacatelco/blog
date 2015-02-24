@@ -8,6 +8,7 @@
     
     if($query) {
         echo "<p>Successfully inserted post: $title</p>";
+        ?><a href="<?php echo $path . "index.php"?>">Main page</a><?php 
     } 
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
