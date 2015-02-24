@@ -22,6 +22,11 @@
     </div>
     
     <div>
+        <label for="image">Image: </label>
+        <input type="image" name="image"/>
+    </div>
+    
+    <div>
         <button type="submit">Submit</button>
     </div>
 </form>

@@ -8,6 +8,6 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="CSS/post design.css">
-        <title></title>
+        <title>Smash Blog</title>
     </head>
     <body>
