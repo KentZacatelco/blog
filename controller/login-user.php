@@ -11,14 +11,17 @@
         
         if($row["password"] === crypt($password, $row["salt"])) {
             $_SESSION["authenticated"] = true;
-            echo "<p>Login Successful! <br/> to main page. </p>";
+            echo "<p>Login Successful! <br/> to pac-land </p>";
+            //tells you logged in
         }
         else {
             echo "<p>Invalid username or password</p>";
+            //wrong username or password
         }
     }
     else {
         echo "<p>Invalid username or password</p>";
+        //wrong user or password
     }
 ?>
-<a href="<?php echo $path . "index.php"?>">Main page</a> 
+<a href="<?php echo $path . "index.php"?>">pac-land</a> 

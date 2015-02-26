@@ -25,9 +25,11 @@ class Database {
 
         if (!$exists) {
             $query = $this->connection->query("CREATE DATABASE $database");
+            //checks if database exists yet
 
             if ($query) {
                 echo "<p>Successsfully created database: " . $database . "</p>";
+                //creates a database
             }
         } else {
             echo "<p></p>";
@@ -63,3 +65,4 @@ class Database {
     }
 
 }
+//this page gets all the respect.

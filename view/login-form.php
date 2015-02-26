@@ -5,6 +5,7 @@
 <h1>Login</h1>
 
 <form method="post" action="<?php echo $path . "controller/login-user.php" ?>">
+    <!-- checks for you to login -->
     <div>
         <label for="username">Username:</label>
         <input type="text" name="username" />
@@ -16,6 +17,7 @@
     </div>
     
     <div>
-        <button type="submit">Submit</button>
+        <button type="submit">Join The Battle!</button>
     </div>
+    <!-- will verify if username and password is correct. -->
 </form>

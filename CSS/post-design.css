@@ -1,9 +1,3 @@
-.post {
-    padding-right: 500px;
-    background-color: steelblue;
-    border: cyan;
-}
-
 h2 {
     text-decoration-color: green;
     background-color: chartreuse;
@@ -13,4 +7,10 @@ h2 {
 .post p {
     text-decoration-color: blueviolet;
     background-color: aquamarine;
+}
+
+.post {
+    border: darkslateblue solid thick;
+    padding: auto auto auto auto;
+    background-color: steelblue;
 }

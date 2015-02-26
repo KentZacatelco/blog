@@ -14,5 +14,6 @@
         $connection = new Database($host, $username,$password, $database);
         $_SESSION["connection"] = $connection;
     }
+    //just a random comment so I have a comment to this page
     
     

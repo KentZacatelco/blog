@@ -14,3 +14,4 @@ function authenticateUser() {
         }
     }
 }
+//makes you logged in.

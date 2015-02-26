@@ -8,6 +8,7 @@
     $salt = "$5$" . "rounds=500$" . uniqid(mt_rand(), true) . "$";
     
     $hashedPassword = crypt($password, $salt);
+    //crypts the password so no hacking, you mad person looking at this code?
     
     $query = $_SESSION["connection"]->query("INSERT INTO users SET "
             . "email = '$email',"
@@ -17,8 +18,10 @@
     
     
     if($query) {
-        echo "Successsfully created user: $username";
+        echo "Created user: $username";
+        //tells your User has been created
     }
     else{
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
+        //shows error
     }

@@ -1,7 +1,7 @@
 <?php
     require_once (__DIR__ . "/../model/config.php");
     require_once (__DIR__ . "/../controller/login-verify.php");
-    
+    //linking the pages
     if(!authenticateUser()) {
         header("Location: " . $path . "index.php");
         die();
@@ -15,18 +15,14 @@
         <label for="title">Title: </label>
         <input type="text" name="title" />
     </div>
-    
+    <!-- Title for the  posts -->
     <div>
         <label for="post">Post: </label>
         <textarea name="post"></textarea>
     </div>
-    
-    <div>
-        <label for="image">Image: </label>
-        <input type="image" name="image"/>
-    </div>
-    
+    <!-- posts texts -->
     <div>
         <button type="submit">Submit</button>
+        <!-- if you don't know what that is, you are dumb -->
     </div>
 </form>

@@ -9,17 +9,17 @@
         <label for="email">Email: </label>
         <input type="text" name="email" />
     </div>
-    
+    <!-- collects email -->
     <div>
         <label for="username">Username:</label>
         <input type="text" name="username" />
     </div>
-    
+    <!-- registers name -->
     <div>
         <label for="password">Password:</label>
         <input type="password" name="password" />
     </div>
-    
+    <!-- registers password -->
     <div>
         <button type="submit">Submit</button>
     </div>

@@ -1,5 +1,6 @@
 <?php
     require_once(__DIR__ . "/../model/config.php");
+    //links to thee model file
     
     $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
             . "id int(11) NOT NULL AUTO_INCREMENT,"
@@ -8,10 +9,12 @@
             . "PRIMARY KEY (id))");
     
     if($query) {
-        echo "<p>Succesfully created table: post</p>";
+        echo "<p></p>";
+        //I erased the notification for creating the post
     }
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
+        //tells that the "tables have been turned" to an error
     }
     
     $query = $_SESSION["connection"]->query("CREATE TABLE users ("
@@ -23,8 +26,10 @@
             . "PRIMARY KEY (id))");
     
     if($query) {
-        echo "<p>Successfully created table: users</p>";
+        echo "<p></p>";
+        //tables for user has been made butI erased the message
     }
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
+        //tells an error occured
     }

@@ -5,15 +5,11 @@
         <group>
             <file>file:/C:/xampp/htdocs/KZ-blog/index.php</file>
             <file>file:/C:/xampp/htdocs/KZ-blog/controller/create-post.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/model/config.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/view/register-form.php</file>
             <file>file:/C:/xampp/htdocs/KZ-blog/view/login-form.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/controller/logout-user.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/view/header.php</file>
             <file>file:/C:/xampp/htdocs/KZ-blog/controller/login-user.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/controller/logout-verify.php</file>
+            <file>file:/C:/xampp/htdocs/KZ-blog/view/form.php</file>
             <file>file:/C:/xampp/htdocs/KZ-blog/controller/login-verify.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/model/database.php</file>
-            <file>file:/C:/xampp/htdocs/KZ-blog/view/navigation.php</file>
         </group>
     </open-files>
 </project-private>
